@@ -10,7 +10,7 @@ function App() {
         type="text" 
         value={url} 
         onChange={(e) => setUrl(e.target.value)} 
-        placeholder="Type the URL address here"
+        placeholder="Enter URL to analyze or textual prompt to generate image"
       />
       <button>Analyze</button>
       <button>Generate</button>
