@@ -12,7 +12,7 @@ function App() {
         onChange={(e) => setUrl(e.target.value)} 
         placeholder="Enter URL to analyze or textual prompt to generate image"
       />
-      <br/>
+      <br/><br/>
       <button>Analyze</button>
       <button>Generate</button>
     </div>
